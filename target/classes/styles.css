@@ -1,0 +1,132 @@
+/* Application Styles for Weather App */
+
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+.button:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* Text Field Styles */
+.text-field {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #BDC3C7;
+    -fx-border-width: 1px;
+    -fx-padding: 5px 10px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498DB;
+    -fx-border-width: 2px;
+}
+
+/* ComboBox Styles */
+.combo-box {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #2C3E50;
+}
+
+.combo-box .list-cell:filled:selected {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+}
+
+/* CheckBox Styles */
+.check-box {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 13px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #3498DB;
+}
+
+/* RadioButton Styles */
+.radio-button {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 13px;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #3498DB;
+}
+
+/* Label Styles */
+.label {
+    -fx-text-fill: #2C3E50;
+}
+
+/* DatePicker Styles */
+.date-picker {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* Spinner Styles */
+.spinner {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* Chart Styles */
+.chart {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+}
+
+.chart-title {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.axis-label {
+    -fx-text-fill: #7F8C8D;
+    -fx-font-size: 12px;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+    -fx-progress-color: #3498DB;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Alert Dialog */
+.alert {
+    -fx-background-color: white;
+}
